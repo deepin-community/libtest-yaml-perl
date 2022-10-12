@@ -1,0 +1,44 @@
+libtest-yaml-perl (1.07-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * Import upstream version 1.07.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.1.5.
+  * Bump debhelper compatibility level to 10.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 20 Jul 2018 20:50:50 +0200
+
+libtest-yaml-perl (1.06-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.06
+  * Update date of upstream copyright
+  * Set debhelper >= 9
+  * Declare compliance with Debian policy 3.9.6
+  * Add autopkgtest-pkg-perl (skip use.t)
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Thu, 30 Jul 2015 14:56:01 -0300
+
+libtest-yaml-perl (1.05-1) unstable; urgency=medium
+
+  * Team upload
+
+  * Imported Upstream version 1.05
+  * Added debian/upstream/metadata
+
+ -- Damyan Ivanov <dmn@debian.org>  Tue, 26 Aug 2014 07:58:04 +0000
+
+libtest-yaml-perl (1.01-1) unstable; urgency=low
+
+  * Initial release (closes: #757424).
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 08 Aug 2014 02:05:18 +0200

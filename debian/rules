@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+PACKAGE = $(shell dh_listpackages)
+TMP     = $(CURDIR)/debian/$(PACKAGE)
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	dh_auto_install
+	# the script is empty except for a USAGE variable
+	$(RM) -vr $(TMP)/usr/bin
